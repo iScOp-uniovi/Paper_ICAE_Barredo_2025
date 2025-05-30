@@ -2,17 +2,15 @@
 ## 📄 Description
 This repository contains supplementary material for the paper:
 
-> **"Multi-Objective Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing"**  
+> **"Multiobjective Cooperative Multi-Fitness in Workflow Scheduling problem"**  
 > (Submitted to **Integrated Computer-Aided Engineering (ICAE)**)  
 > Authors: Pablo Barredo, Jorge Puente  
 >
 > DOI: [Pending Assignment]  
 > URI: [Pending Assignment]
 
-The efficient scheduling of scientific workflows in cloud environments involves balancing multiple conflicting objectives, primarily makespan and energy consumption. This paper proposes a novel extension of the Cooperative Multi-Fitness (CMF) paradigm to multi-objective evolutionary algorithms (MOEAs), where each objective is supported by a dedicated set of domain-specific heuristics.
-
-The proposed method, termed **MOCMF**, embeds cooperative decoding and Lamarckian recoding into a standard MOEA (e.g., NSGA-II, SPEA2, IBEA), producing multiple objective-specific phenotypes from a shared genotype. This approach enables each heuristic to guide the search independently while preserving improvements across the population. The method is tested on data-intensive scientific workflows under the Disk–Network–Computing (DNC) model, demonstrating substantial improvements in convergence and robustness without sacrificing generality.
-
+The optimisation of scientific workflows in cloud environments presents considerable challenges, primarily due to the inherent trade-offs between makespan and energy consumption. To address this, we propose Multi-Objective Cooperative Multi-Fitness (MOCMF), a novel mechanism that significantly enhances multi-objective evolutionary algorithms through a unique cooperative evaluation and recoding strategy. Diverging from existing multi-decoder approaches, MOCMF's core innovation lies in its collaborative framework: heuristic decoders work in tandem to support a baseline decoding function, providing expert solutions that guide the Lamarckian recoding of chromosomes. Furthermore, MOCMF extends this cooperative evaluation to a multi-objective setting, where each heuristic decoder focuses on optimising a specific objective, leading to the generation of multiple distinct solutions per chromosome. 
+Experimental results on data-intensive workflow benchmarks show that MOCMF improves the average Hypervolume by 32% and Inverted Generational Distance by 42% compared to a standard NSGA-II implementation, and by 7% and 6% respectively compared to its mono-objective cooperative variants. The proposed mechanism is also generalisable and potentially applicable to other multi-objective problems beyond workflow scheduling.
 ---
 
 ## 📂 Repository Content
@@ -50,7 +48,7 @@ Follow the instructions in the `code/` folder to configure and run experiments u
 If you use this material in your research, please cite our paper as follows:
 
 ```
-@article{Barredo2025MOCMF,
+@article{Barredo2025ICAE,
   author    = {Pablo Barredo and Jorge Puente},
   title     = {Multi-Objective Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing},
   journal   = {Submitted to Integrated Computer-Aided Engineering (ICAE)},
