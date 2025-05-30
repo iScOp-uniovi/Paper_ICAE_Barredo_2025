@@ -3,7 +3,7 @@
 This repository contains supplementary material for the paper:
 
 > **"Multi-Objective Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing"**  
-> (Submitted to **Natural Computing (NACO)**)  
+> (Submitted to **Integrated Computer-Aided Engineering (ICAE)**)  
 > Authors: Pablo Barredo, Jorge Puente  
 >
 > DOI: [Pending Assignment]  
@@ -37,8 +37,8 @@ For detailed usage instructions, refer to the README files within each subdirect
 To access and utilize the supplementary material, clone this repository and navigate to the appropriate directories:
 
 ```bash
-git clone https://github.com/iScOp-uniovi/Paper_NACO_MOCMF_2025
-cd Paper_NACO_MOCMF_2025
+git clone https://github.com/iScOp-uniovi/Paper_ICAE_Barredo_2025
+cd Paper_ICAE_Barredo_2025
 ```
 
 Follow the instructions in the `code/` folder to configure and run experiments using your chosen algorithm and workflow configuration.
@@ -53,7 +53,7 @@ If you use this material in your research, please cite our paper as follows:
 @article{Barredo2025MOCMF,
   author    = {Pablo Barredo and Jorge Puente},
   title     = {Multi-Objective Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing},
-  journal   = {Submitted to Natural Computing (NACO)},
+  journal   = {Submitted to Integrated Computer-Aided Engineering (ICAE)},
   year      = {2025},
   doi       = {Pending Assignment}
 }
