@@ -50,7 +50,7 @@ If you use this material in your research, please cite our paper as follows:
 ```
 @article{Barredo2025ICAE,
   author    = {Pablo Barredo and Jorge Puente},
-  title     = {Multi-Objective Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing},
+  title     = {Multiobjective Cooperative Multi-Fitness in Workflow Scheduling problem},
   journal   = {Submitted to Integrated Computer-Aided Engineering (ICAE)},
   year      = {2025},
   doi       = {Pending Assignment}
