@@ -3,7 +3,7 @@
 This repository contains supplementary material for the paper:
 
 > **"Multiobjective Cooperative Multi-Fitness in Workflow Scheduling problem"**  
-> (Submitted to **Integrated Computer-Aided Engineering (ICAE)**)  
+> (Accepted for publication in **Integrated Computer-Aided Engineering (ICAE)**)
 > Authors: Pablo Barredo, Jorge Puente  
 >
 > DOI: [Pending Assignment]  
