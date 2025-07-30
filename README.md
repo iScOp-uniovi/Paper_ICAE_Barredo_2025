@@ -6,7 +6,7 @@ This repository contains supplementary material for the paper:
 > (Accepted for publication in **Integrated Computer-Aided Engineering (ICAE)**)
 > Authors: Pablo Barredo, Jorge Puente  
 >
-> DOI: [Pending Assignment]  
+> DOI: [10.1177/10692509251363797](https://doi.org/10.1177/10692509251363797)  
 > URI: [Pending Assignment]
 
 The optimisation of scientific workflows in cloud environments presents considerable challenges, primarily due to the inherent trade-offs between makespan and energy consumption. To address this, we propose Multi-Objective Cooperative Multi-Fitness (MOCMF), a novel mechanism that significantly enhances multi-objective evolutionary algorithms through a unique cooperative evaluation and recoding strategy. Diverging from existing multi-decoder approaches, MOCMF's core innovation lies in its collaborative framework: heuristic decoders work in tandem to support a baseline decoding function, providing expert solutions that guide the Lamarckian recoding of chromosomes. Furthermore, MOCMF extends this cooperative evaluation to a multi-objective setting, where each heuristic decoder focuses on optimising a specific objective, leading to the generation of multiple distinct solutions per chromosome. 
