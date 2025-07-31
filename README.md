@@ -54,7 +54,7 @@ If you use this material in your research, please cite our paper as follows:
   title     = {Multiobjective Cooperative Multi-Fitness in Workflow Scheduling problem},
   journal   = {Submitted to Integrated Computer-Aided Engineering (ICAE)},
   year      = {2025},
-  doi       = {Pending Assignment}
+  doi       = {10.1177/10692509251363797}
 }
 ```
 
