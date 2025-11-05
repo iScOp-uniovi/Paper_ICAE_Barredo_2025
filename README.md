@@ -3,11 +3,12 @@
 This repository contains supplementary material for the paper:
 
 > **"Multiobjective Cooperative Multi-Fitness in Workflow Scheduling problem"**  
-> (Accepted for publication in **Integrated Computer-Aided Engineering (ICAE)**)
+> Published in **Integrated Computer-Aided Engineering (ICAE)**
+>
 > Authors: Pablo Barredo, Jorge Puente  
 >
 > DOI: [10.1177/10692509251363797](https://doi.org/10.1177/10692509251363797)  
-> URI: [Pending Assignment]
+> URI: [https://hdl.handle.net/10651/80828](https://hdl.handle.net/10651/80828)
 
 The optimisation of scientific workflows in cloud environments presents considerable challenges, primarily due to the inherent trade-offs between makespan and energy consumption. To address this, we propose Multi-Objective Cooperative Multi-Fitness (MOCMF), a novel mechanism that significantly enhances multi-objective evolutionary algorithms through a unique cooperative evaluation and recoding strategy. Diverging from existing multi-decoder approaches, MOCMF's core innovation lies in its collaborative framework: heuristic decoders work in tandem to support a baseline decoding function, providing expert solutions that guide the Lamarckian recoding of chromosomes. Furthermore, MOCMF extends this cooperative evaluation to a multi-objective setting, where each heuristic decoder focuses on optimising a specific objective, leading to the generation of multiple distinct solutions per chromosome. 
 Experimental results on data-intensive workflow benchmarks show that MOCMF improves the average Hypervolume by 32% and Inverted Generational Distance by 42% compared to a standard NSGA-II implementation, and by 7% and 6% respectively compared to its mono-objective cooperative variants. The proposed mechanism is also generalisable and potentially applicable to other multi-objective problems beyond workflow scheduling.
@@ -50,11 +51,14 @@ If you use this material in your research, please cite our paper as follows:
 
 ```
 @article{Barredo2025ICAE,
-  author    = {Pablo Barredo and Jorge Puente},
-  title     = {Multiobjective Cooperative Multi-Fitness in Workflow Scheduling problem},
-  journal   = {Submitted to Integrated Computer-Aided Engineering (ICAE)},
-  year      = {2025},
-  doi       = {10.1177/10692509251363797}
+author = {Pablo Barredo and Jorge Puente},
+title ={Multiobjective cooperative multi-fitness in workflow scheduling problem},
+journal = {Integrated Computer-Aided Engineering},
+volume = {32},
+number = {4},
+pages = {443-464},
+year = {2025},
+doi = {10.1177/10692509251363797}
 }
 ```
 
