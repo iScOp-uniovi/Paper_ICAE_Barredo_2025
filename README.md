@@ -64,6 +64,19 @@ doi = {10.1177/10692509251363797}
 
 ---
 
+## ⚖️ License
+
+This repository is distributed under a dual-license scheme:
+
+- All **datasets, results and documentation** (`data/`, `results/`, `README.md`) are licensed under the  
+  **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+- All **source code** contained in the `code/` directory is licensed under the  
+  **MIT License**.
+
+---
+
+---
 ## 📧 Contact
 For questions or inquiries about this work, please contact:  
 ✉️ **[puente@uniovi.es](mailto:puente@uniovi.es)**
