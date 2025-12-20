@@ -1,0 +1,25 @@
+{
+  "fitness": [
+    "simple-moheft",
+    "multi",
+    "simple-moaco",
+    "simple",
+    "multi-moaco",
+    "multi-energy-moaco",
+    "multi-makespan-moaco"
+  ],
+  "workflows": [
+    "montage-chameleon-2mass-005d-001",
+    "montage-chameleon-2mass-01d-001"
+  ],
+  "minHosts": 8,
+  "maxHosts": 16,
+  "hostIncrement": 2,
+  "referenceSpeed": "121.6Gf",
+  "independentRuns": 10,
+  "objectives": [
+    "energy",
+    "makespan"
+  ],
+  "jmetalAnalysis": true
+}
